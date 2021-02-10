@@ -6,7 +6,6 @@ import tkinter
 start = 0
 num = int(open("./input.txt").readlines()[1])
 sleep = int(open("./input.txt").readlines()[2])
-Anzahl = 10
 
 def v1():
     global start
@@ -15,8 +14,8 @@ def v1():
     
 
 
-def restart():
-    main.start()
+#def restart():
+    #main.start()
     
 def ende():
     main.destroy()
@@ -59,11 +58,15 @@ def write(start, num, sleep):
                 keyboard.release(char)
                 
             keyboard.press(Key.enter)
-            time.sleep(sleep)
+            
+            if i == num:
+                pass
+            else:
+                time.sleep(sleep)
 
     else:
         time.sleep(0.2)
-        command = restart
+        #command = restart
 
 
 def getinput():    
