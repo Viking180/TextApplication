@@ -6,9 +6,9 @@ dann muss auf die textfläche geklickt werden in die hineingeschrieben werden so
 
 Das Pattern für den Input File sieht so aus:
 
-0 Text zum senden (max 30 Zeichen) 
-1 Anzahl der Wiederholungen von diesem Text
-2 zeit angabe der differenz zischen den Nachichten in sekunden
+0 Text zum senden (max 30 Zeichen); 
+1 Anzahl der Wiederholungen von diesem Text; 
+2 zeit angabe der differenz zischen den Nachichten in Sekunden; 
 
 
 
