@@ -3,18 +3,11 @@ import time
 import tkinter
 #Variables
 #########################################################
-
-#   § § § § § SPAM § § § § §
-
 start = 0
-
+num = int(open("./input.txt").readlines()[1])
+sleep = int(open("./input.txt").readlines()[2])
 Anzahl = 10
-#########################################################
-#length not valid
 
-
-
-#########################################################
 def v1():
     global start
     start = 1
@@ -30,7 +23,6 @@ def ende():
     time.sleep(2)
 
 
-
 main = tkinter.Tk()
 lb1 = tkinter.Label(main, text = "Start Spamm Attack")
 lb1["font"] = "courier 16 italic"
@@ -44,7 +36,6 @@ lb1["anchor"] = "w"
 lb1.pack()
 
 
-
 b = tkinter.Button(main, text = "send Text", command = v1)
 b.pack()
 
@@ -55,23 +46,21 @@ b.pack()
 main.mainloop()
 
 
-#print(start)
-
-
 
 keyboard = Controller()
-def write(start):
+def write(start, num, sleep):
 
     if start == 1:
         time.sleep(0.5)
-        for i in range(1):
+        for i in range(num):
             for char in (spam_phrase):
                 time.sleep(0)
                 keyboard.press(char)
                 keyboard.release(char)
                 
-            #keyboard.press(Key.enter)
-            
+            keyboard.press(Key.enter)
+            time.sleep(sleep)
+
     else:
         time.sleep(0.2)
         command = restart
@@ -85,6 +74,6 @@ def getinput():
 spam_phrase = getinput()
 
 
-write(start)
+write(start, num, sleep)
 
 
