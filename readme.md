@@ -12,5 +12,14 @@ Das Pattern für den Input File sieht so aus:
 
 
 
+zur installation:
+
+- zunächst ist git installieren (falls noch nicht geschehen)
+- in der git bash console in den gewünschten order navigieren und mit git clone gefolgt von der auf github kopierten Adresse einfügen.
+in diesem fall:
+	git clone https://github.com/Viking180/TextApplication.git
+- mit cd in den ordner gehen
+- mit python TextApplication.py die Applikation ausführen
+
 Ich nehme distanz von der benutzung dieses Programmes sobald es weitergegeben wurde. 
 ~ Fabian Jahnke 10.02.2021
