@@ -14,6 +14,8 @@ Das Pattern für den Input File sieht so aus:
 
 zur installation:
 
+- Required python
+
 - zunächst ist git installieren (falls noch nicht geschehen)
 - in der git bash console in den gewünschten order navigieren und mit git clone gefolgt von der auf github kopierten Adresse einfügen.
 in diesem fall:
