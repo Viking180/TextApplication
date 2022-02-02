@@ -1,4 +1,4 @@
-Dies ist mein Program. ~Fabian Jahnke
+Dies ist mein Program. 
 Es werden 30 Zeichen aus dem file "input" genommen und ausgegeben in das Feld was dann geöffnet ist.
 das Feld muss aber Manuel ausgewählt werden 
 zum ausführen muss das program gestartet werden und zunächst den ersten und dann den zweiten Button drücken
@@ -23,5 +23,3 @@ in diesem fall:
 - mit cd in den ordner gehen
 - mit python TextApplication.py die Applikation ausführen
 
-Ich nehme distanz von der benutzung dieses Programmes sobald es weitergegeben wurde. 
-~ Fabian Jahnke 10.02.2021
